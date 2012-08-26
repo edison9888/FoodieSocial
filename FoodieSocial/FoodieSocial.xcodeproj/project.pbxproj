@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A051112615EA2B9000BA08AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051112515EA2B9000BA08AB /* UIKit.framework */; };
+		A051112815EA2B9000BA08AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051112715EA2B9000BA08AB /* Foundation.framework */; };
+		A051112A15EA2B9000BA08AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051112915EA2B9000BA08AB /* CoreGraphics.framework */; };
+		A051112C15EA2B9000BA08AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051112B15EA2B9000BA08AB /* CoreData.framework */; };
+		A051113215EA2B9000BA08AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A051113015EA2B9000BA08AB /* InfoPlist.strings */; };
+		A051113415EA2B9000BA08AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A051113315EA2B9000BA08AB /* main.m */; };
+		A051113815EA2B9000BA08AB /* soleoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A051113715EA2B9000BA08AB /* soleoAppDelegate.m */; };
+		A051113B15EA2B9100BA08AB /* FoodieSocial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A051113915EA2B9100BA08AB /* FoodieSocial.xcdatamodeld */; };
+		A051114315EA2B9100BA08AB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051114215EA2B9100BA08AB /* SenTestingKit.framework */; };
+		A051114415EA2B9100BA08AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051112515EA2B9000BA08AB /* UIKit.framework */; };
+		A051114515EA2B9100BA08AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051112715EA2B9000BA08AB /* Foundation.framework */; };
+		A051114615EA2B9100BA08AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051112B15EA2B9000BA08AB /* CoreData.framework */; };
+		A051114E15EA2B9100BA08AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A051114C15EA2B9100BA08AB /* InfoPlist.strings */; };
+		A051115115EA2B9100BA08AB /* FoodieSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A051115015EA2B9100BA08AB /* FoodieSocialTests.m */; };
+		A051115B15EA2CA200BA08AB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A051115A15EA2CA200BA08AB /* Storyboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A051114715EA2B9100BA08AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A051111815EA2B9000BA08AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A051112015EA2B9000BA08AB;
+			remoteInfo = FoodieSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A051112115EA2B9000BA08AB /* FoodieSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodieSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A051112515EA2B9000BA08AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A051112715EA2B9000BA08AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A051112915EA2B9000BA08AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A051112B15EA2B9000BA08AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A051112F15EA2B9000BA08AB /* FoodieSocial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodieSocial-Info.plist"; sourceTree = "<group>"; };
+		A051113115EA2B9000BA08AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A051113315EA2B9000BA08AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A051113515EA2B9000BA08AB /* FoodieSocial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodieSocial-Prefix.pch"; sourceTree = "<group>"; };
+		A051113615EA2B9000BA08AB /* soleoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = soleoAppDelegate.h; sourceTree = "<group>"; };
+		A051113715EA2B9000BA08AB /* soleoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = soleoAppDelegate.m; sourceTree = "<group>"; };
+		A051113A15EA2B9100BA08AB /* FoodieSocial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodieSocial.xcdatamodel; sourceTree = "<group>"; };
+		A051114115EA2B9100BA08AB /* FoodieSocialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodieSocialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A051114215EA2B9100BA08AB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A051114B15EA2B9100BA08AB /* FoodieSocialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodieSocialTests-Info.plist"; sourceTree = "<group>"; };
+		A051114D15EA2B9100BA08AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A051114F15EA2B9100BA08AB /* FoodieSocialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodieSocialTests.h; sourceTree = "<group>"; };
+		A051115015EA2B9100BA08AB /* FoodieSocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodieSocialTests.m; sourceTree = "<group>"; };
+		A051115A15EA2CA200BA08AB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A051111E15EA2B9000BA08AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A051112615EA2B9000BA08AB /* UIKit.framework in Frameworks */,
+				A051112815EA2B9000BA08AB /* Foundation.framework in Frameworks */,
+				A051112A15EA2B9000BA08AB /* CoreGraphics.framework in Frameworks */,
+				A051112C15EA2B9000BA08AB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A051113D15EA2B9100BA08AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A051114315EA2B9100BA08AB /* SenTestingKit.framework in Frameworks */,
+				A051114415EA2B9100BA08AB /* UIKit.framework in Frameworks */,
+				A051114515EA2B9100BA08AB /* Foundation.framework in Frameworks */,
+				A051114615EA2B9100BA08AB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A051111615EA2B9000BA08AB = {
+			isa = PBXGroup;
+			children = (
+				A051115A15EA2CA200BA08AB /* Storyboard.storyboard */,
+				A051112D15EA2B9000BA08AB /* FoodieSocial */,
+				A051114915EA2B9100BA08AB /* FoodieSocialTests */,
+				A051112415EA2B9000BA08AB /* Frameworks */,
+				A051112215EA2B9000BA08AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A051112215EA2B9000BA08AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A051112115EA2B9000BA08AB /* FoodieSocial.app */,
+				A051114115EA2B9100BA08AB /* FoodieSocialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A051112415EA2B9000BA08AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A051112515EA2B9000BA08AB /* UIKit.framework */,
+				A051112715EA2B9000BA08AB /* Foundation.framework */,
+				A051112915EA2B9000BA08AB /* CoreGraphics.framework */,
+				A051112B15EA2B9000BA08AB /* CoreData.framework */,
+				A051114215EA2B9100BA08AB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A051112D15EA2B9000BA08AB /* FoodieSocial */ = {
+			isa = PBXGroup;
+			children = (
+				A051113615EA2B9000BA08AB /* soleoAppDelegate.h */,
+				A051113715EA2B9000BA08AB /* soleoAppDelegate.m */,
+				A051113915EA2B9100BA08AB /* FoodieSocial.xcdatamodeld */,
+				A051112E15EA2B9000BA08AB /* Supporting Files */,
+			);
+			path = FoodieSocial;
+			sourceTree = "<group>";
+		};
+		A051112E15EA2B9000BA08AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A051112F15EA2B9000BA08AB /* FoodieSocial-Info.plist */,
+				A051113015EA2B9000BA08AB /* InfoPlist.strings */,
+				A051113315EA2B9000BA08AB /* main.m */,
+				A051113515EA2B9000BA08AB /* FoodieSocial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A051114915EA2B9100BA08AB /* FoodieSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				A051114F15EA2B9100BA08AB /* FoodieSocialTests.h */,
+				A051115015EA2B9100BA08AB /* FoodieSocialTests.m */,
+				A051114A15EA2B9100BA08AB /* Supporting Files */,
+			);
+			path = FoodieSocialTests;
+			sourceTree = "<group>";
+		};
+		A051114A15EA2B9100BA08AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A051114B15EA2B9100BA08AB /* FoodieSocialTests-Info.plist */,
+				A051114C15EA2B9100BA08AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A051112015EA2B9000BA08AB /* FoodieSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A051115415EA2B9100BA08AB /* Build configuration list for PBXNativeTarget "FoodieSocial" */;
+			buildPhases = (
+				A051111D15EA2B9000BA08AB /* Sources */,
+				A051111E15EA2B9000BA08AB /* Frameworks */,
+				A051111F15EA2B9000BA08AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodieSocial;
+			productName = FoodieSocial;
+			productReference = A051112115EA2B9000BA08AB /* FoodieSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A051114015EA2B9100BA08AB /* FoodieSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A051115715EA2B9100BA08AB /* Build configuration list for PBXNativeTarget "FoodieSocialTests" */;
+			buildPhases = (
+				A051113C15EA2B9100BA08AB /* Sources */,
+				A051113D15EA2B9100BA08AB /* Frameworks */,
+				A051113E15EA2B9100BA08AB /* Resources */,
+				A051113F15EA2B9100BA08AB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A051114815EA2B9100BA08AB /* PBXTargetDependency */,
+			);
+			name = FoodieSocialTests;
+			productName = FoodieSocialTests;
+			productReference = A051114115EA2B9100BA08AB /* FoodieSocialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A051111815EA2B9000BA08AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = soleo;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = shaoxinjiang;
+			};
+			buildConfigurationList = A051111B15EA2B9000BA08AB /* Build configuration list for PBXProject "FoodieSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A051111615EA2B9000BA08AB;
+			productRefGroup = A051112215EA2B9000BA08AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A051112015EA2B9000BA08AB /* FoodieSocial */,
+				A051114015EA2B9100BA08AB /* FoodieSocialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A051111F15EA2B9000BA08AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A051113215EA2B9000BA08AB /* InfoPlist.strings in Resources */,
+				A051115B15EA2CA200BA08AB /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A051113E15EA2B9100BA08AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A051114E15EA2B9100BA08AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A051113F15EA2B9100BA08AB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A051111D15EA2B9000BA08AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A051113415EA2B9000BA08AB /* main.m in Sources */,
+				A051113815EA2B9000BA08AB /* soleoAppDelegate.m in Sources */,
+				A051113B15EA2B9100BA08AB /* FoodieSocial.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A051113C15EA2B9100BA08AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A051115115EA2B9100BA08AB /* FoodieSocialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A051114815EA2B9100BA08AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A051112015EA2B9000BA08AB /* FoodieSocial */;
+			targetProxy = A051114715EA2B9100BA08AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A051113015EA2B9000BA08AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A051113115EA2B9000BA08AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A051114C15EA2B9100BA08AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A051114D15EA2B9100BA08AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A051115215EA2B9100BA08AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A051115315EA2B9100BA08AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A051115515EA2B9100BA08AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodieSocial/FoodieSocial-Prefix.pch";
+				INFOPLIST_FILE = "FoodieSocial/FoodieSocial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A051115615EA2B9100BA08AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodieSocial/FoodieSocial-Prefix.pch";
+				INFOPLIST_FILE = "FoodieSocial/FoodieSocial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A051115815EA2B9100BA08AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodieSocial.app/FoodieSocial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodieSocial/FoodieSocial-Prefix.pch";
+				INFOPLIST_FILE = "FoodieSocialTests/FoodieSocialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A051115915EA2B9100BA08AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodieSocial.app/FoodieSocial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodieSocial/FoodieSocial-Prefix.pch";
+				INFOPLIST_FILE = "FoodieSocialTests/FoodieSocialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A051111B15EA2B9000BA08AB /* Build configuration list for PBXProject "FoodieSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A051115215EA2B9100BA08AB /* Debug */,
+				A051115315EA2B9100BA08AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A051115415EA2B9100BA08AB /* Build configuration list for PBXNativeTarget "FoodieSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A051115515EA2B9100BA08AB /* Debug */,
+				A051115615EA2B9100BA08AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A051115715EA2B9100BA08AB /* Build configuration list for PBXNativeTarget "FoodieSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A051115815EA2B9100BA08AB /* Debug */,
+				A051115915EA2B9100BA08AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A051113915EA2B9100BA08AB /* FoodieSocial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A051113A15EA2B9100BA08AB /* FoodieSocial.xcdatamodel */,
+			);
+			currentVersion = A051113A15EA2B9100BA08AB /* FoodieSocial.xcdatamodel */;
+			path = FoodieSocial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A051111815EA2B9000BA08AB /* Project object */;
+}
