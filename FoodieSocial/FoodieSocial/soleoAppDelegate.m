@@ -7,19 +7,24 @@
 //
 
 #import "soleoAppDelegate.h"
-
+#import "ViewController.h"
 @implementation soleoAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    // setup storyboard 
+    UIStoryboard *stb = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+    self.window.rootViewController = [stb instantiateInitialViewController];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

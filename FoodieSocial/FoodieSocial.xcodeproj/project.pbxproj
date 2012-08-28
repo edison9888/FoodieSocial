@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A032BCBE15EA6D7100A490B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A032BCBD15EA6D7100A490B8 /* ViewController.m */; };
 		A051112615EA2B9000BA08AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051112515EA2B9000BA08AB /* UIKit.framework */; };
 		A051112815EA2B9000BA08AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051112715EA2B9000BA08AB /* Foundation.framework */; };
 		A051112A15EA2B9000BA08AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A051112915EA2B9000BA08AB /* CoreGraphics.framework */; };
@@ -22,6 +23,11 @@
 		A051114E15EA2B9100BA08AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A051114C15EA2B9100BA08AB /* InfoPlist.strings */; };
 		A051115115EA2B9100BA08AB /* FoodieSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A051115015EA2B9100BA08AB /* FoodieSocialTests.m */; };
 		A051115B15EA2CA200BA08AB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A051115A15EA2CA200BA08AB /* Storyboard.storyboard */; };
+		A0DF738A15EBFFE600FCA9B4 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DF738915EBFFE600FCA9B4 /* PhotoViewController.m */; };
+		A0DF738D15EBFFFC00FCA9B4 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DF738C15EBFFFC00FCA9B4 /* HistoryViewController.m */; };
+		A0DF739015EC001500FCA9B4 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DF738F15EC001500FCA9B4 /* SearchViewController.m */; };
+		A0DF739315EC002A00FCA9B4 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DF739215EC002A00FCA9B4 /* ProfileViewController.m */; };
+		A0DF739615EC00EA00FCA9B4 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DF739515EC00E900FCA9B4 /* ShareViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A032BCBC15EA6D7100A490B8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = FoodieSocial/ViewController.h; sourceTree = "<group>"; };
+		A032BCBD15EA6D7100A490B8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = FoodieSocial/ViewController.m; sourceTree = "<group>"; };
 		A051112115EA2B9000BA08AB /* FoodieSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodieSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A051112515EA2B9000BA08AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A051112715EA2B9000BA08AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +62,16 @@
 		A051114F15EA2B9100BA08AB /* FoodieSocialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodieSocialTests.h; sourceTree = "<group>"; };
 		A051115015EA2B9100BA08AB /* FoodieSocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodieSocialTests.m; sourceTree = "<group>"; };
 		A051115A15EA2CA200BA08AB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A0DF738815EBFFE600FCA9B4 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewController.h; path = FoodieSocial/PhotoViewController.h; sourceTree = "<group>"; };
+		A0DF738915EBFFE600FCA9B4 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewController.m; path = FoodieSocial/PhotoViewController.m; sourceTree = "<group>"; };
+		A0DF738B15EBFFFC00FCA9B4 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryViewController.h; path = FoodieSocial/HistoryViewController.h; sourceTree = "<group>"; };
+		A0DF738C15EBFFFC00FCA9B4 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoryViewController.m; path = FoodieSocial/HistoryViewController.m; sourceTree = "<group>"; };
+		A0DF738E15EC001500FCA9B4 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = FoodieSocial/SearchViewController.h; sourceTree = "<group>"; };
+		A0DF738F15EC001500FCA9B4 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = FoodieSocial/SearchViewController.m; sourceTree = "<group>"; };
+		A0DF739115EC002A00FCA9B4 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = FoodieSocial/ProfileViewController.h; sourceTree = "<group>"; };
+		A0DF739215EC002A00FCA9B4 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = FoodieSocial/ProfileViewController.m; sourceTree = "<group>"; };
+		A0DF739415EC00E900FCA9B4 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareViewController.h; path = ShareService/ShareViewController.h; sourceTree = "<group>"; };
+		A0DF739515EC00E900FCA9B4 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareViewController.m; path = ShareService/ShareViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +103,18 @@
 		A051111615EA2B9000BA08AB = {
 			isa = PBXGroup;
 			children = (
+				A0DF738815EBFFE600FCA9B4 /* PhotoViewController.h */,
+				A0DF738915EBFFE600FCA9B4 /* PhotoViewController.m */,
+				A0DF738B15EBFFFC00FCA9B4 /* HistoryViewController.h */,
+				A0DF738C15EBFFFC00FCA9B4 /* HistoryViewController.m */,
+				A0DF738E15EC001500FCA9B4 /* SearchViewController.h */,
+				A0DF738F15EC001500FCA9B4 /* SearchViewController.m */,
+				A0DF739115EC002A00FCA9B4 /* ProfileViewController.h */,
+				A0DF739415EC00E900FCA9B4 /* ShareViewController.h */,
+				A0DF739515EC00E900FCA9B4 /* ShareViewController.m */,
+				A0DF739215EC002A00FCA9B4 /* ProfileViewController.m */,
+				A032BCBC15EA6D7100A490B8 /* ViewController.h */,
+				A032BCBD15EA6D7100A490B8 /* ViewController.m */,
 				A051115A15EA2CA200BA08AB /* Storyboard.storyboard */,
 				A051112D15EA2B9000BA08AB /* FoodieSocial */,
 				A051114915EA2B9100BA08AB /* FoodieSocialTests */,
@@ -266,6 +296,12 @@
 				A051113415EA2B9000BA08AB /* main.m in Sources */,
 				A051113815EA2B9000BA08AB /* soleoAppDelegate.m in Sources */,
 				A051113B15EA2B9100BA08AB /* FoodieSocial.xcdatamodeld in Sources */,
+				A032BCBE15EA6D7100A490B8 /* ViewController.m in Sources */,
+				A0DF738A15EBFFE600FCA9B4 /* PhotoViewController.m in Sources */,
+				A0DF738D15EBFFFC00FCA9B4 /* HistoryViewController.m in Sources */,
+				A0DF739015EC001500FCA9B4 /* SearchViewController.m in Sources */,
+				A0DF739315EC002A00FCA9B4 /* ProfileViewController.m in Sources */,
+				A0DF739615EC00EA00FCA9B4 /* ShareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +469,7 @@
 				A051115615EA2B9100BA08AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A051115715EA2B9100BA08AB /* Build configuration list for PBXNativeTarget "FoodieSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +478,7 @@
 				A051115915EA2B9100BA08AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
