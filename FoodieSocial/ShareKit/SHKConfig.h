@@ -46,8 +46,8 @@
 // If SHKFacebookUseSessionProxy is enabled then SHKFacebookSecret is ignored and should be left blank
 
 #define SHKFacebookUseSessionProxy  NO 
-#define SHKFacebookKey				@""
-#define SHKFacebookSecret			@""
+#define SHKFacebookKey				@"326710030760369"
+#define SHKFacebookSecret			@"8703e6626e439a340b40e29488be0a33"
 #define SHKFacebookSessionProxyURL  @""
 
 // Read It Later - http://readitlaterlist.com/api/?shk
@@ -69,9 +69,9 @@
  2. 'Application Type' should be set to BROWSER (not client)
  3. 'Callback URL' should match whatever you enter in SHKTwitterCallbackUrl.  The callback url doesn't have to be an actual existing url.  The user will never get to it because ShareKit intercepts it before the user is redirected.  It just needs to match.
  */
-#define SHKTwitterConsumerKey		@""
-#define SHKTwitterSecret			@""
-#define SHKTwitterCallbackUrl		@"" // You need to set this if using OAuth, see note above (xAuth users can skip it)
+#define SHKTwitterConsumerKey		@"r76p7ZapJ6tUcBGbCdG7gw"
+#define SHKTwitterSecret			@"5wRQjim0RGklj5qODcpyuJjBeKY5eZjSETmeHtO1eSA"
+#define SHKTwitterCallbackUrl		@"http://www.soleoshao.com/foodiesocial" // You need to set this if using OAuth, see note above (xAuth users can skip it)
 #define SHKTwitterUseXAuth			0 // To use xAuth, set to 1
 #define SHKTwitterUsername			@"" // Enter your app's twitter account if you'd like to ask the user to follow it when logging in. (Only for xAuth)
 
@@ -140,12 +140,12 @@
  */
 
 // A : show debug output
-//#define SHKDebugShowLogs			1
-//#define SHKLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#define SHKDebugShowLogs			1
+#define SHKLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
 
 // B : hide debug output
-#define SHKDebugShowLogs			0
-#define SHKLog( s, ... ) 
+//#define SHKDebugShowLogs			0
+//#define SHKLog( s, ... )
 
 
 
