@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PhotoViewController : UIViewController
+@interface PhotoViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
+@property  (nonatomic, retain) UIImagePickerController *imagePickerController;
+
+- (void)setupImagePicker:(UIImagePickerControllerSourceType)sourceType;
+- (void)imagePickerController:(UIImagePickerController *)picker
+        didFinishPickingImage:(UIImage *)image
+                  editingInfo:(NSDictionary *)editingInfo;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker;
 @end

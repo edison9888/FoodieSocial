@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "PhotoViewController.h"
+#import "CameraViewController.h"
 
 @interface ViewController ()
 
@@ -84,8 +85,22 @@
     //NSLog(@"actionsheet: %@ , buttonIndex: %d", actionSheet, buttonIndex);
     if (actionSheet.title == @"From") {
         NSLog(@"PhotoViewController");
-        PhotoViewController *photoViewController = [[PhotoViewController alloc] initWithNibName:@"PhotoView" bundle:nil];
-        [self.view addSubview:photoViewController.view];        
+        //PhotoViewController *photoViewController = [[PhotoViewController alloc]init];
+        UIStoryboard *storyboard = self.storyboard;
+        if(buttonIndex == 0){
+            CameraViewController *cameraViewController = [storyboard instantiateViewControllerWithIdentifier:@"CameraViewController"];
+            // configure the new view controller explicitly here
+            
+            [self presentViewController:cameraViewController animated:YES completion:nil];
+        }else if(buttonIndex == 1){
+            PhotoViewController *photoViewController = [storyboard instantiateViewControllerWithIdentifier:@"PhotoViewController"];
+            
+            //[photoViewController.overlayViewController setupImagePicker:sourceType];
+            //[self presentModalViewController:self.overlayViewController.imagePickerController animated:YES];
+            // configure the new view controller explicitly here
+            [self presentViewController:photoViewController animated:YES completion:nil];
+        }
+            
         
     } else if( actionSheet.title == @"Share to"){
         NSLog(@"ShareController");

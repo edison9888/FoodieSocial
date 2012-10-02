@@ -10,6 +10,11 @@
 
 @interface PhotoViewController ()
 
+@property (nonatomic, retain) IBOutlet UIImageView *imageView;
+
+// toolbar buttons
+- (IBAction)photoLibraryAction:(id)sender;
+
 @end
 
 @implementation PhotoViewController
@@ -19,6 +24,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.imagePickerController = [[UIImagePickerController alloc] init];
+        self.imagePickerController.delegate = self;
     }
     return self;
 }
@@ -26,6 +33,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view.
 }
 
@@ -40,4 +48,8 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)setupImagePicker:(UIImagePickerControllerSourceType)sourceType
+{
+    self.imagePickerController.sourceType = sourceType;
+}
 @end

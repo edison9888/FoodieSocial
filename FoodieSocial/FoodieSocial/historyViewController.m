@@ -7,6 +7,7 @@
 //
 
 #import "HistoryViewController.h"
+#import "PhotoViewController.h"
 
 @interface HistoryViewController ()
 
