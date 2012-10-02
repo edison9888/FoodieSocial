@@ -88,6 +88,9 @@
 		A0A14DA3161B7D810081BCC7 /* SHKOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A14D62161B7D810081BCC7 /* SHKOAuthView.m */; };
 		A0A14DA4161B7D810081BCC7 /* SHKShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A14D64161B7D810081BCC7 /* SHKShareMenu.m */; };
 		A0A14DA5161B7D810081BCC7 /* SHKViewControllerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A14D66161B7D810081BCC7 /* SHKViewControllerWrapper.m */; };
+		A0A14DA8161B7F8F0081BCC7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A14DA7161B7F8F0081BCC7 /* SystemConfiguration.framework */; };
+		A0A14DAB161B7FAA0081BCC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A14DAA161B7FAA0081BCC7 /* Security.framework */; };
+		A0A14DAD161B7FB60081BCC7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A14DAC161B7FB60081BCC7 /* MessageUI.framework */; };
 		A0B4B8531609112C003B9B23 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4B81A1609112C003B9B23 /* GTMBase64.m */; };
 		A0B4B8541609112C003B9B23 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0B4B81C1609112C003B9B23 /* Localizable.strings */; };
 		A0B4B8551609112C003B9B23 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B4B8201609112C003B9B23 /* bg.png */; };
@@ -290,6 +293,10 @@
 		A0A14D64161B7D810081BCC7 /* SHKShareMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKShareMenu.m; sourceTree = "<group>"; };
 		A0A14D65161B7D810081BCC7 /* SHKViewControllerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKViewControllerWrapper.h; sourceTree = "<group>"; };
 		A0A14D66161B7D810081BCC7 /* SHKViewControllerWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKViewControllerWrapper.m; sourceTree = "<group>"; };
+		A0A14DA7161B7F8F0081BCC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A0A14DA9161B7F910081BCC7 /* FoodieSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FoodieSocial.entitlements; sourceTree = "<group>"; };
+		A0A14DAA161B7FAA0081BCC7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A0A14DAC161B7FB60081BCC7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		A0B4B8191609112C003B9B23 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		A0B4B81A1609112C003B9B23 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		A0B4B81B1609112C003B9B23 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
@@ -360,6 +367,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A14DAD161B7FB60081BCC7 /* MessageUI.framework in Frameworks */,
+				A0A14DAB161B7FAA0081BCC7 /* Security.framework in Frameworks */,
+				A0A14DA8161B7F8F0081BCC7 /* SystemConfiguration.framework in Frameworks */,
 				A02918B61600F48E00346F78 /* Accounts.framework in Frameworks */,
 				A051112615EA2B9000BA08AB /* UIKit.framework in Frameworks */,
 				A051112815EA2B9000BA08AB /* Foundation.framework in Frameworks */,
@@ -465,6 +475,9 @@
 		A051112415EA2B9000BA08AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0A14DAC161B7FB60081BCC7 /* MessageUI.framework */,
+				A0A14DAA161B7FAA0081BCC7 /* Security.framework */,
+				A0A14DA7161B7F8F0081BCC7 /* SystemConfiguration.framework */,
 				A02918B51600F48E00346F78 /* Accounts.framework */,
 				A051112515EA2B9000BA08AB /* UIKit.framework */,
 				A051112715EA2B9000BA08AB /* Foundation.framework */,
@@ -478,6 +491,7 @@
 		A051112D15EA2B9000BA08AB /* FoodieSocial */ = {
 			isa = PBXGroup;
 			children = (
+				A0A14DA9161B7F910081BCC7 /* FoodieSocial.entitlements */,
 				A051113615EA2B9000BA08AB /* soleoAppDelegate.h */,
 				A051113715EA2B9000BA08AB /* soleoAppDelegate.m */,
 				A051113915EA2B9100BA08AB /* FoodieSocial.xcdatamodeld */,
@@ -1309,6 +1323,7 @@
 		A051115515EA2B9100BA08AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FoodieSocial/FoodieSocial.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoodieSocial/FoodieSocial-Prefix.pch";
 				INFOPLIST_FILE = "FoodieSocial/FoodieSocial-Info.plist";
@@ -1320,6 +1335,7 @@
 		A051115615EA2B9100BA08AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FoodieSocial/FoodieSocial.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoodieSocial/FoodieSocial-Prefix.pch";
 				INFOPLIST_FILE = "FoodieSocial/FoodieSocial-Info.plist";
