@@ -92,6 +92,10 @@
 		A0A14DAB161B7FAA0081BCC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A14DAA161B7FAA0081BCC7 /* Security.framework */; };
 		A0A14DAD161B7FB60081BCC7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A14DAC161B7FB60081BCC7 /* MessageUI.framework */; };
 		A0A14DAF161BE4DF0081BCC7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A14DAE161BE4DE0081BCC7 /* Default-568h@2x.png */; };
+		A0D4E6771621073D000D104A /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D4E6761621073D000D104A /* icon_114.png */; };
+		A0D4E679162107A6000D104A /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D4E678162107A6000D104A /* icon_57.png */; };
+		A0D4E67B162107BA000D104A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D4E67A162107BA000D104A /* Default@2x.png */; };
+		A0D4E67E162108AF000D104A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D4E67C162107C6000D104A /* Default.png */; };
 		A0DF738A15EBFFE600FCA9B4 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DF738915EBFFE600FCA9B4 /* PhotoViewController.m */; };
 		A0DF738D15EBFFFC00FCA9B4 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DF738C15EBFFFC00FCA9B4 /* HistoryViewController.m */; };
 		A0DF739015EC001500FCA9B4 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DF738F15EC001500FCA9B4 /* SearchViewController.m */; };
@@ -267,6 +271,10 @@
 		A0A14DAA161B7FAA0081BCC7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A0A14DAC161B7FB60081BCC7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		A0A14DAE161BE4DE0081BCC7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A0D4E6761621073D000D104A /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114.png; sourceTree = "<group>"; };
+		A0D4E678162107A6000D104A /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57.png; sourceTree = "<group>"; };
+		A0D4E67A162107BA000D104A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A0D4E67C162107C6000D104A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A0DF738815EBFFE600FCA9B4 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewController.h; path = FoodieSocial/PhotoViewController.h; sourceTree = "<group>"; };
 		A0DF738915EBFFE600FCA9B4 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewController.m; path = FoodieSocial/PhotoViewController.m; sourceTree = "<group>"; };
 		A0DF738B15EBFFFC00FCA9B4 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryViewController.h; path = FoodieSocial/HistoryViewController.h; sourceTree = "<group>"; };
@@ -319,6 +327,10 @@
 		A051111615EA2B9000BA08AB = {
 			isa = PBXGroup;
 			children = (
+				A0D4E67C162107C6000D104A /* Default.png */,
+				A0D4E67A162107BA000D104A /* Default@2x.png */,
+				A0D4E678162107A6000D104A /* icon_57.png */,
+				A0D4E6761621073D000D104A /* icon_114.png */,
 				A0A14DAE161BE4DE0081BCC7 /* Default-568h@2x.png */,
 				A0A14CC9161B7D810081BCC7 /* ShareKit */,
 				A02918AF1600F2F900346F78 /* Resources */,
@@ -850,6 +862,10 @@
 				A0A14D83161B7D810081BCC7 /* Localizable.strings in Resources */,
 				A0A14D8A161B7D810081BCC7 /* FBConnect.bundle in Resources */,
 				A0A14DAF161BE4DF0081BCC7 /* Default-568h@2x.png in Resources */,
+				A0D4E6771621073D000D104A /* icon_114.png in Resources */,
+				A0D4E679162107A6000D104A /* icon_57.png in Resources */,
+				A0D4E67B162107BA000D104A /* Default@2x.png in Resources */,
+				A0D4E67E162108AF000D104A /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1063,6 +1079,8 @@
 				GCC_PREFIX_HEADER = "FoodieSocial/FoodieSocial-Prefix.pch";
 				INFOPLIST_FILE = "FoodieSocial/FoodieSocial-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1075,6 +1093,8 @@
 				GCC_PREFIX_HEADER = "FoodieSocial/FoodieSocial-Prefix.pch";
 				INFOPLIST_FILE = "FoodieSocial/FoodieSocial-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
