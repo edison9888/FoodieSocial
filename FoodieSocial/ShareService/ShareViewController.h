@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 #import "SHK.h"
 @interface ShareViewController : UIViewController
-- (IBAction)handleShareButtonAction: (id)sender;
++ (SHKActionSheet *)handleShareButtonAction;
 @end

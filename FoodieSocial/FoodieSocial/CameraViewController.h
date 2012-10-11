@@ -8,22 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol OverlayViewControllerDelegate;
+typedef void(^ConfirmCallback)(id sender, bool confirm);
 
-@interface CameraViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
-{
-    id <OverlayViewControllerDelegate> delegate;
-}
+@interface CameraViewController : UIViewController
 
-@property  (nonatomic, assign) id <OverlayViewControllerDelegate> delegate;
-@property  (nonatomic, retain) UIImagePickerController *imagePickerController;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (copy, nonatomic) ConfirmCallback confirmCallback;
+@property (strong, readonly) UIImage* image;
 
-- (void)setupImagePicker:(UIImagePickerControllerSourceType)sourceType;
+
+- (IBAction)confirm:(id)sender;
+- (IBAction)cancel:(id)sender;
 
 @end
 
-@protocol OverlayViewControllerDelegate
-- (void)didTakePicture:(UIImage *)picture;
-- (void)didFinishWithCamera;
-@end
+
 

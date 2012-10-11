@@ -40,7 +40,7 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)handleShareButtonAction: (id)sender
++ (SHKActionSheet *)handleShareButtonAction
 {
     // Create the item to share (in this example, a url)
 	NSURL *url = [NSURL URLWithString:@"http://soleoshao.com"];
@@ -49,8 +49,9 @@
 	// Get the ShareKit action sheet
 	SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
     
+    return actionSheet;
 	// Display the action sheet
-    [actionSheet showInView:self.view];
+    //[actionSheet showInView:self.view];
 	//[actionSheet showFromToolbar:self];
 }
 @end

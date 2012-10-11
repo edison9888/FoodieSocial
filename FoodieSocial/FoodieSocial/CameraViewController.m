@@ -8,19 +8,20 @@
 
 #import "CameraViewController.h"
 
-
+#import <MobileCoreServices/UTCoreTypes.h>
 @interface CameraViewController ()
+
+@property (strong, readwrite) UIImage* image;
 
 @end
 
 @implementation CameraViewController
 
-//@synthesize delegate;
+@synthesize confirmCallback = confirmCallback;
+@synthesize imageView = _imageView;
+@synthesize image = _image;
 
-- (void)setupImagePicker:(UIImagePickerControllerSourceType)sourceType
-{
-    
-}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -34,17 +35,34 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    [self.imageView setImage:self.image];
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    self.imageView = nil;
+    self.image = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (IBAction)confirm:(id)sender{
+    if(self.confirmCallback){
+        self.confirmCallback(self,true);
+    }
+    [self.navigationController popViewControllerAnimated:true];
+}
+
+- (IBAction)cancel:(id)sender{
+    if(self.confirmCallback){
+        self.confirmCallback(self, false);
+    }
+    [self.navigationController popViewControllerAnimated:true];
 }
 
 @end
