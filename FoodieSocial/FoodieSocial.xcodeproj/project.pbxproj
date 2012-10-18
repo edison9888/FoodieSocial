@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A00018AD1630A1C600AF7A1A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00018AC1630A1C600AF7A1A /* CoreLocation.framework */; };
+		A00018B21630A2AB00AF7A1A /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = A00018B11630A2AB00AF7A1A /* Location.m */; };
 		A02918B61600F48E00346F78 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02918B51600F48E00346F78 /* Accounts.framework */; };
 		A02C835A15EFDCD600408BEE /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02C835915EFDCD600408BEE /* CameraViewController.m */; };
 		A032BCBE15EA6D7100A490B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A032BCBD15EA6D7100A490B8 /* ViewController.m */; };
@@ -116,6 +117,8 @@
 
 /* Begin PBXFileReference section */
 		A00018AC1630A1C600AF7A1A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A00018B01630A2AB00AF7A1A /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = LocationService/Location.h; sourceTree = "<group>"; };
+		A00018B11630A2AB00AF7A1A /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = LocationService/Location.m; sourceTree = "<group>"; };
 		A02918B51600F48E00346F78 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A02C835815EFDCD500408BEE /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = FoodieSocial/CameraViewController.h; sourceTree = "<group>"; };
 		A02C835915EFDCD600408BEE /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = FoodieSocial/CameraViewController.m; sourceTree = "<group>"; };
@@ -320,6 +323,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A00018AF1630A22600AF7A1A /* LocationService */ = {
+			isa = PBXGroup;
+			children = (
+				A00018B01630A2AB00AF7A1A /* Location.h */,
+				A00018B11630A2AB00AF7A1A /* Location.m */,
+			);
+			name = LocationService;
+			sourceTree = "<group>";
+		};
 		A02918AF1600F2F900346F78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +342,7 @@
 		A051111615EA2B9000BA08AB = {
 			isa = PBXGroup;
 			children = (
+				A00018AF1630A22600AF7A1A /* LocationService */,
 				A0D4E67C162107C6000D104A /* Default.png */,
 				A0D4E67A162107BA000D104A /* Default@2x.png */,
 				A0D4E678162107A6000D104A /* icon_57.png */,
@@ -974,6 +987,7 @@
 				A0A14DA3161B7D810081BCC7 /* SHKOAuthView.m in Sources */,
 				A0A14DA4161B7D810081BCC7 /* SHKShareMenu.m in Sources */,
 				A0A14DA5161B7D810081BCC7 /* SHKViewControllerWrapper.m in Sources */,
+				A00018B21630A2AB00AF7A1A /* Location.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
