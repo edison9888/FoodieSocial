@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00018AD1630A1C600AF7A1A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00018AC1630A1C600AF7A1A /* CoreLocation.framework */; };
 		A02918B61600F48E00346F78 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02918B51600F48E00346F78 /* Accounts.framework */; };
 		A02C835A15EFDCD600408BEE /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02C835915EFDCD600408BEE /* CameraViewController.m */; };
 		A032BCBE15EA6D7100A490B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A032BCBD15EA6D7100A490B8 /* ViewController.m */; };
@@ -114,6 +115,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A00018AC1630A1C600AF7A1A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A02918B51600F48E00346F78 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A02C835815EFDCD500408BEE /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = FoodieSocial/CameraViewController.h; sourceTree = "<group>"; };
 		A02C835915EFDCD600408BEE /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = FoodieSocial/CameraViewController.m; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00018AD1630A1C600AF7A1A /* CoreLocation.framework in Frameworks */,
 				A0A14DAD161B7FB60081BCC7 /* MessageUI.framework in Frameworks */,
 				A0A14DAB161B7FAA0081BCC7 /* Security.framework in Frameworks */,
 				A0A14DA8161B7F8F0081BCC7 /* SystemConfiguration.framework in Frameworks */,
@@ -368,6 +371,7 @@
 		A051112415EA2B9000BA08AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A00018AC1630A1C600AF7A1A /* CoreLocation.framework */,
 				A0A14DAC161B7FB60081BCC7 /* MessageUI.framework */,
 				A0A14DAA161B7FAA0081BCC7 /* Security.framework */,
 				A0A14DA7161B7F8F0081BCC7 /* SystemConfiguration.framework */,
