@@ -35,8 +35,8 @@
 - (IBAction)testphotocontroller:(id)sender
 {
     
-    UIStoryboard *storyboard = self.storyboard;
-    id pvc = [storyboard instantiateViewControllerWithIdentifier:@"PhotoViewController"];
+    //UIStoryboard *storyboard = self.storyboard;
+    //id pvc = [storyboard instantiateViewControllerWithIdentifier:@"PhotoViewController"];
     [self startMediaBrowserFromViewController: self
                                 usingDelegate: self];
     // Configure the new view controller here.
@@ -192,6 +192,7 @@
             //[photoViewController.overlayViewController setupImagePicker:sourceType];
             //[self presentModalViewController:self.overlayViewController.imagePickerController animated:YES];
             // configure the new view controller explicitly here
+            
             [self presentViewController:photoViewController animated:YES completion:nil];
         }
             
@@ -205,8 +206,9 @@
 @implementation ViewController (CameraDelegateMethods)
 // For responding to the user tapping Cancel.
 - (void) imagePickerControllerDidCancel: (UIImagePickerController *) picker {
-    
-    [[picker parentViewController] dismissModalViewControllerAnimated: YES];
+    [picker dismissModalViewControllerAnimated:YES];
+    // The method below are not used in iOS 5 or later
+    //[[picker parentViewController] dismissModalViewControllerAnimated: YES];
     //[picker release];
 }
 
@@ -249,8 +251,9 @@
                                                  moviePath, nil, nil, nil);
         }
     }
-    
-    [[picker parentViewController] dismissModalViewControllerAnimated: YES];
+    [picker dismissModalViewControllerAnimated:YES];
+    // The method below are not used in iOS 5 or later
+    //[[picker parentViewController] dismissModalViewControllerAnimated: YES];
     //[picker release];
 }
 
