@@ -1,8 +1,9 @@
 FoodieSocial
 ============
+Not maintained any more. But it is renamed as Fancy Foodie.
 
-iOS app. Take photos of your pretty foodie and share with your friend.
+Check it out at http://soleo.github.io/Fancy/
 
 * Author    Xinjiang Shao
 * Date      Oct 2012
-* Website   http://www.soleoshao.com/foodiesocial
+* Website   http://www.soleoshao.com/fancy
