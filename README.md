@@ -7,3 +7,5 @@ Check it out at http://soleo.github.io/Fancy/
 * Author    Xinjiang Shao
 * Date      Oct 2012
 * Website   http://www.soleoshao.com/fancy
+
+[![endorse](https://api.coderwall.com/soleo/endorsecount.png)](https://coderwall.com/soleo)
